@@ -8,12 +8,15 @@
 <body>
     <h2>Encuesta: ¿Qué mascotas preferís?</h2>
     <form action="Encuesta" method="post">
-        <input type="checkbox" name="mascotas" value="Perro"> Perro <br>
-        <input type="checkbox" name="mascotas" value="Caballo"> Caballo <br>
-        <input type="checkbox" name="mascotas" value="Hamster"> Hamster <br>
-        <input type="checkbox" name="mascotas" value="Tortuga"> Tortuga <br>
-        <input type="checkbox" name="mascotas" value="Cangrejo"> Cangrejo <br>
-        <input type="checkbox" name="mascotas" value="Gato"> Gato <br><br>
+    	<label for="mascotas"> Selecciona las mascotas a votar: </label> <br>
+    	<select name="mascotas" id="mascotas" multiple size="6">
+        	<option value="Perro">Perro</option>
+        	<option value="Caballo">Caballo</option>
+			<option value="Hamster">Hamster</option>
+			<option value="Tortuga">Tortuga</option>
+			<option value="Cangrejo">Cangrejo</option>
+			<option value="Gato">Gato</option>
+        </select> <br> <br>
         <button type="submit">Enviar Voto!</button>
     </form>
 </body>
