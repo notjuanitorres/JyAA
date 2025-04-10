@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Practica1Web6</name>
+	<name>Practica4</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -20,8 +20,14 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
@@ -30,7 +36,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1742430362797</id>
+			<id>1744254157337</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
