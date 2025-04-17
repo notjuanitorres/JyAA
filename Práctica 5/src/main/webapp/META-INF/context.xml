@@ -1,0 +1,12 @@
+<Context>
+  <Resource name="jdbc/LogDB"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxTotal="20"
+            maxIdle="10"
+            maxWaitMillis="-1"
+            username="elgoat"
+            password="sieteacero"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/atajoMansilla"/>
+</Context>

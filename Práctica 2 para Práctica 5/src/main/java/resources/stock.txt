@@ -1,0 +1,10 @@
+Chocolatines, 1.25
+Chupetines, 0.90
+Caramelos, 0.10
+Chicles, 0.05
+Pastillas, 1
+Chocoarroz, 2
+Rasta, 2.5
+Guaymallen, 0.3
+Yerba, 3
+Don Saturday, 1.5
