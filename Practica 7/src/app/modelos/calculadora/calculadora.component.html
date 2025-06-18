@@ -1,0 +1,24 @@
+<hr class="my-5">
+<h3>Calculadora simple</h3>
+
+<div class="row mb-3">
+  <div class="col">
+    <label for="a" class="form-label">Número A:</label>
+    <input id="a" type="number" [(ngModel)]="a" class="form-control">
+  </div>
+  <div class="col">
+    <label for="b" class="form-label">Número B:</label>
+    <input id="b" type="number" [(ngModel)]="b" class="form-control">
+  </div>
+</div>
+
+<div class="mb-3">
+  <button class="btn btn-success me-2" (click)="operar('+')">+</button>
+  <button class="btn btn-success me-2" (click)="operar('-')">−</button>
+  <button class="btn btn-success me-2" (click)="operar('*')">×</button>
+  <button class="btn btn-success" (click)="operar('/')">÷</button>
+</div>
+
+<div class="alert alert-primary" role="alert">
+  Resultado: {{ resultado }}
+</div>
